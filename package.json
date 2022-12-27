@@ -11,6 +11,14 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
+  "dependencies": {
+    "@unocss/preset-attributify": "^0.48.0",
+    "@unocss/preset-icons": "^0.48.0",
+    "@unocss/preset-uno": "^0.48.0",
+    "@unocss/preset-web-fonts": "^0.48.0",
+    "@unocss/reset": "^0.48.0",
+    "typescript": "^4.9.4"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^0.34.0",
     "@unocss/nuxt": "^0.48.0",
@@ -20,13 +28,5 @@
     "jsdom": "^20.0.3",
     "nuxt": "3.0.0",
     "vitest": "^0.26.2"
-  },
-  "dependencies": {
-    "@unocss/preset-attributify": "^0.48.0",
-    "@unocss/preset-icons": "^0.48.0",
-    "@unocss/preset-uno": "^0.48.0",
-    "@unocss/preset-web-fonts": "^0.48.0",
-    "@unocss/reset": "^0.48.0",
-    "typescript": "^4.9.4"
   }
 }
