@@ -9,7 +9,9 @@
     "test": "vitest",
     "coverage": "vitest run --coverage",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "cy:o": "cypress open",
+    "cy:r": "cypress run"
   },
   "dependencies": {
     "@unocss/preset-attributify": "^0.48.0",
@@ -17,6 +19,7 @@
     "@unocss/preset-uno": "^0.48.0",
     "@unocss/preset-web-fonts": "^0.48.0",
     "@unocss/reset": "^0.48.0",
+    "cypress": "^12.2.0",
     "typescript": "^4.9.4"
   },
   "devDependencies": {
