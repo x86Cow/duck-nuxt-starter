@@ -1,16 +1,11 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-
-const message = ref("This is a welcome message!")
 </script>
 
 <template>
-  <div>
-    <h1>{{ message }}</h1>
-  </div>
+  <main class="w-screen h-screen bg-black flex flex-col justify-center items-center text-white">
+    <img src="@/assets/nuxt-logo.svg" alt="Nuxt logo">
+    <h1 class="font-light text-2xl mt-2">
+      Duck nuxt starter
+    </h1>
+  </main>
 </template>
-
-<style scoped>
-
-</style>
-
